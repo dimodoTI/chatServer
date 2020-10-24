@@ -12,8 +12,8 @@ const DO_ACTION = "do-action"
 
 
 const server = https.createServer({
-    key: fs.readFileSync('certs/ws.chat.dimodo.ga/key.pem'),
-    cert: fs.readFileSync('certs/ws.chat.dimodo.ga/fullchain.pem')
+    key: fs.readFileSync('certs/ws.chat.ikeargentina.com.ar/key.pem'),
+    cert: fs.readFileSync('certs/ws.chat.ikeargentina.com.ar/fullchain.pem')
 });
 
 //const server = http.createServer();
